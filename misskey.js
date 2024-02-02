@@ -96,27 +96,12 @@ class Misskey extends EventEmitter {
         }
     }
 
-    async send(text, visibility, localOnly, cw, replyId) {
-        const { createdNote } = await this.api("notes/create", {
+    async send(text, visibility, localOnly) {
+        await this.api("notes/create", {
             text,
             visibility,
             localOnly,
-            cw,
-            replyId,
         })
-
-        createdNote.reply = async (_text, _cw) => {
-            const data = await this.send(
-                _text,
-                visibility,
-                localOnly,
-                _cw,
-                createdNote?.id
-            )
-            return data
-        }
-
-        return createdNote
     }
 
     async getEmojis() {
