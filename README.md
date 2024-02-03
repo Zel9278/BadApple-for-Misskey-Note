@@ -21,6 +21,6 @@ MisskeyにBadAppleを再生します。
 ```
 7. 管理者に問い合わせるか、自分が管理者の場合、レートリミットをすごーーーーーーーーーーーーーーーーーーーーーーーーーーく緩めます
 https://<あなたのURL>/admin/roles -> 管理者用のロール -> 編集 -> レートリミット
-![](https://f.c30.life/aa32.png/direct)  
+![](https://cdn.discordapp.com/attachments/963367800821395466/1203277696944181299/chrome_fBoYEbyvMz.png?ex=65d082ae&is=65be0dae&hm=dd10803a2fe7bbf00028a0ba5f90bebfe8f08fdad65b9407cc98e5ab4ae2ca37&)  
 -> 保存
 8. コンソールで`node .`をしてGO TO BADAPPLEします。
